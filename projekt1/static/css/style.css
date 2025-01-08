@@ -1,0 +1,479 @@
+body
+{
+    background-color: #141313;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin: 0 !important;
+}
+
+.wrapper
+{
+    width: 100%;
+
+}
+
+.header
+{
+    width: 100%;
+    padding: 40px, 0;
+}
+
+.logo
+{
+    width: 600px;
+    font-size: 48px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.logotxt
+{
+    width: 200px;
+    font-size: 68px;
+    padding-top: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logotxt a
+{
+    text-decoration: none;
+    color: rgb(217, 255, 0);
+}
+
+#oa a
+{
+    color: #ffffff !important;
+}
+
+.nav
+{
+    display: flex;
+    width: 100%;
+    height: 45px;
+    padding: 10px 0;
+    background-color: #252222;
+    text-align: center;
+    margin-left: auto;
+    margin-bottom: auto;
+    border-top: 1px solid #000000; 
+    border-bottom: 1px solid #000000; 
+}
+
+.content
+{
+    background-color: #1d1a1f;
+    padding: 40px;
+    width: 1000px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.socials
+{
+    width: 100%;
+    text-align: center;
+    background-color: #221f24;
+}
+
+.socialdivs
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fb
+{
+    width: 250px;
+    height: 155px;
+    float:left;
+}
+
+.socialdivs a
+{
+    background-color: #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+    display:block;
+}
+
+.fb:hover
+{
+    background-color: #4668b3;
+}
+
+.yt
+{
+    width: 250px;
+    height: 155px;
+    float:left;
+}
+
+.yt:hover
+{
+    background-color: #d94348;
+}
+
+.gplus
+{
+    width: 250px;
+    height: 155px;
+    float:left;
+}
+
+.gplus:hover
+{
+    background-color: #dd4d3f;
+}
+
+.tw
+{
+    width: 250px;
+    height: 155px;
+    float:left;
+}
+
+.tw:hover
+{
+    background-color: #3095d3;
+}
+
+.footer
+{
+    text-align: center;
+    background-color: #1d1a1f;
+    padding: 30px;
+}
+
+.sticky
+{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+ol
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 200px;
+    margin: auto;
+    list-style-type: none;
+    font-size: 22px;
+    height: 45px;
+    line-height: 200%;
+}
+
+ol a
+{
+    color: #ffffff;
+    text-decoration: none;
+    display:block;
+}
+
+ol > li
+{
+    float: left;
+    width: 200px;
+    height: 45px;
+    border-right: 1px dashed #000000;
+}
+
+ol > li:first-child
+{
+    border-left: 1px dashed #000000;
+}
+
+ol > li:hover
+{
+    background-color: #161113;
+}
+
+ol > li:hover > a
+{
+    color: #ffffff;
+}
+
+.profile
+{
+    position: relative; bottom: 9px; 
+    margin-right: 30px;
+    padding: 9px;
+    float: right;
+    width: 150px;
+    height: 45px;
+}
+
+.profile:hover
+{
+    background-color: #161113;;
+}
+
+#profileimg
+{
+    border-radius: 50%;
+    float: right;
+    position: relative; bottom: 6px;
+}
+
+#profilename
+{
+    padding-right: 20px;
+    margin: 0;
+    float: right;
+    position: relative; top: 7px;
+    font-size: 25px;
+}
+
+.profile a
+{
+    color: #ffffff;
+    text-decoration: none;
+    display:block;
+}
+
+ol > li > ul
+{
+    list-style-type: none;
+    padding: 4px;
+    margin: 0;
+    height: 40px;
+    display: none;
+}
+
+ol > li:hover > ul
+{
+    display: block;
+}
+
+ol > li > ul > li
+{
+    background-color: #000000;
+    position: relative;
+    z-index: 100;
+    border-top: 1px dashed #c30941;
+}
+
+ol > li > ul > li:last-child
+{
+    border-bottom: 1px dashed #c30941;
+}
+
+ol > li > ul > li:hover
+{
+    background-color: #20191b;
+}
+
+ol > li > ul > li:hover > a
+{
+    color: #ffffff;
+}
+
+.profile > ul
+{   
+    position: relative;top: 54px; right: 49px;
+    list-style-type: none;
+    margin: 0;
+    max-height: 0px;
+    width: 168px;
+    display: none;
+}
+
+.profile:hover > ul
+{
+    display: block;
+}
+
+.profile > ul > li
+{
+    font-size: 25px;
+    background-color: #332429;
+    position: relative;
+    z-index: 100;
+    border-top: 1px dashed #22191c;
+}
+
+.profile > ul > li:hover > a
+{
+    color: #ffffff;
+}
+
+.profile > ul > li:hover
+{
+    background-color: #1f1518;
+}
+
+.profileoptions
+{
+    margin-left:30px;
+    width: 180px;
+    height: 400px;
+    padding: 40px;
+    text-align: left;
+    background-color: #2b252e;
+    border-radius: 15px;
+    -webkit-box-shadow: inset 0px 0px 17px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: inset 0px 0px 17px 0px rgba(0, 0, 0, 1);
+    box-shadow: inset 0px 0px 17px 0px rgba(0, 0, 0, 1);
+}
+
+.profileoptions a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.profilecontent
+{
+    display: flex; /* Tworzy elastyczny układ dla dzieci (left i div3) */
+    align-items: flex-start; /* Wyrównanie do góry */
+    background-color: #1d1a1f;
+    padding: 40px;
+    width: 1000px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+#bigprofileimg
+{
+    border-radius: 50%;
+}
+
+.profilebio
+{
+    float: right;
+    width: 600px;
+    height: 200px;
+    text-align: justify;
+}
+
+.ProfileInfo
+{
+    width: 300px;
+    display: flex; /* Tworzy wewnętrzny flexbox */
+    flex-direction: column; /* Układa Div 1 i Div 2 w kolumnie */
+    margin-right: 20px; /* Daje odstęp między kolumną a Div 3 */
+}
+#bio
+{
+    border-radius: 15px;
+    -webkit-box-shadow: inset 0px 0px 17px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: inset 0px 0px 17px 0px rgba(0, 0, 0, 1);
+    box-shadow: inset 0px 0px 17px 0px rgba(0, 0, 0, 1);
+    background-color: #2b252e;
+    padding: 10px;
+}
+
+#biotitle
+{
+    text-align: center;
+    width: 40px;
+    border-radius: 10px;
+    padding: 8px;
+    background-color:  #1f1c20;
+    color: #ffffff;
+}
+
+#bioref
+{
+    text-decoration: none;
+}
+
+#biotitle:hover
+{
+    background-color:  #2b252e;
+    cursor: pointer;
+}
+
+.usernameandpic
+{
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #2b252e;
+    width: 200px;
+    height: 230px;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    -webkit-box-shadow: inset 0px 0px 17px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: inset 0px 0px 17px 0px rgba(0, 0, 0, 1);
+    box-shadow: inset 0px 0px 17px 0px rgba(0, 0, 0, 1);
+}
+
+.signing
+{
+    display: flex;
+    margin-right: 20px;
+    text-align: left;
+    float: right;
+    width: 300px;
+    height: 45px;
+}
+
+#small
+{
+    font-size: 15px;
+    position: relative; bottom: 7px;
+}
+
+.signin
+{
+    margin-right: 20px;
+    margin-top: 5px;
+    color: #ffffff;
+    background-color: #443b49;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    border-radius: 15px;
+    font-size: 25px;
+    -webkit-box-shadow: inset 0px 0px 3px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: inset 0px 0px 3px 0px rgba(0, 0, 0, 1);
+    box-shadow: inset 0px 0px 3px 0px rgba(0, 0, 0, 1);
+}
+
+.signin:hover
+{
+    background-color: #1d181f;
+}
+
+.signin a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.signup
+{
+    color: #ffffff;
+    background-color: #443b49;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    border-radius: 15px;
+    text-decoration: none;
+    position: relative; bottom: 7px;
+    -webkit-box-shadow: inset 0px 0px 3px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: inset 0px 0px 3px 0px rgba(0, 0, 0, 1);
+    box-shadow: inset 0px 0px 3px 0px rgba(0, 0, 0, 1);
+}
+
+.signup:hover
+{
+    background-color: #1d181f;
+}
