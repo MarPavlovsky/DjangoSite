@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+{% load static %}
+{% load crispy_forms_tags %}
+<html lang="pl">
+{% block content %}
+<head>
+	<meta charset="utf-8" />
+	<title>Login</title>
+	<meta name="description" content="Nauka podstawowego stylizowania elementów formularzy" />
+	<meta name="keywords" content="css" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+    <link href="{% static 'css/fontello.css' %}" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="{% static 'css/registerstyle.css' %}" type="text/css" />
+	
+</head>
+
+<body>
+
+    <div class="header">
+
+        <div class="logo">
+            <a href="http://127.0.0.1:8000/"><img class="logoimg" src="{% static 'images/logo.png' %}"/></a>
+            <div class="logotxt"><a href="http://127.0.0.1:8000/">Gym</a><span id="oa"><a href="http://127.0.0.1:8000/">Book</a></span></div>
+            <div style="clear: both;"></div>
+        </div>
+    </div>
+
+	<div id="container">
+
+		<form method="POST">
+			<h2>Welcome Back!</h1>
+			{% csrf_token %}
+			<fieldset class="form">
+				{{ form.as_p }}
+			</fieldset>
+			<div class="form">
+				<button class="btn" type="submit">Sign Up</button>
+			</div>
+		</form>
+		<div class="bdt">
+			<small class="text-muted">
+				Don't have an account yet? <a class="link" href="http://127.0.0.1:8000/userprofile/register/">Sign Up</a>
+			</small>
+		</div>
+	</div>
+	
+</body>
+{% endblock content %}
+</html>
