@@ -63,9 +63,9 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-                r'C:\Users\op123\OneDrive\Desktop\studia\informatyka laboratorium\django python\polab-MPawlowski0\venvName\UserProfile\templates',
-                r'C:\Users\op123\OneDrive\Desktop\studia\informatyka laboratorium\django python\polab-MPawlowski0\venvName\projekt1\templates'
-            ],
+            BASE_DIR / 'UserProfile/templates',
+            BASE_DIR / 'projekt1/templates',
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
